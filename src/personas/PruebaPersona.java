@@ -13,7 +13,9 @@ public class PruebaPersona {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    	
+
+        System.out.println("Este cambio se hizo desde GitHub");
+
          // Creamos varias instancias de personas
          Persona per1 = new Persona("20222444L", "María", "Carcelén Sánchez", 67);
          Persona per2 = new Persona("José", "Serrano Márquez", 25);
