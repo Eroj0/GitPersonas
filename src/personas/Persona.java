@@ -95,7 +95,7 @@ public class Persona {
     }
 
     /**
-     * Devuelve la edad
+     * Metodo que Devuelve la edad
      * @return
      */
     public int getEdad() {
@@ -174,6 +174,8 @@ public class Persona {
 
         String dniRegexp = "\\d{8}[A-HJ-NP-TV-Z]";
         return Pattern.matches(dniRegexp, valor);
+        
+        
     }
     
 }
